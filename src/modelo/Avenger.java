@@ -89,9 +89,10 @@ public class Avenger {
     public String toString() {
 
         return "ID: " + id
-                + "  Nombre: " + nombre
-                + "  Mision: " + mision
-                + "  Peligrosidad: " + peligrosidad
-                + "  Pago: $" + pagoMensual;
+                + "\nNombre: " + nombre
+                + "\nMision: " + mision
+                + "\nPeligrosidad: " + peligrosidad
+                + "\nPago Mensual: $"
+                + String.format("%.2f", pagoMensual);
     }
 }

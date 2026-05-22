@@ -175,13 +175,18 @@ public class Ventana {
                                 avenger.toString()
                                         + "\n\n"
                                         + "Fondo de Heroes: $"
-                                        + avenger.calcularFondoHeroes()
+                                        + String.format("%.2f",
+                                        avenger.calcularFondoHeroes())
+
                                         + "\n\n"
                                         + "Impuesto Gobierno: $"
-                                        + avenger.calcularImpuesto()
+                                        + String.format("%.2f",
+                                        avenger.calcularImpuesto())
+
                                         + "\n\n"
                                         + "Pago Neto: $"
-                                        + avenger.calcularPagoNeto()
+                                        + String.format("%.2f",
+                                        avenger.calcularPagoNeto())
                         );
 
                     } else {
